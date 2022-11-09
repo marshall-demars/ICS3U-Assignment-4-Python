@@ -16,7 +16,7 @@ def main():
     try:
         integer_one_as_int = int(integer_one_as_string)
         integer_two_as_int = int(integer_two_as_string)
-        if integer_one_as_int or integer_two_as_int < 0:
+        if integer_one_as_int < 0 or integer_two_as_int < 0:
             print("\nPlease input only positive numbers.")
         elif integer_one_as_int > integer_two_as_int:
             print(
